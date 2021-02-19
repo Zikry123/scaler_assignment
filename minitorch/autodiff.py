@@ -180,7 +180,7 @@ class FunctionBase:
 
         """
         # TODO: Implement for Task 1.3.
-        raise NotImplementedError('Need to implement for Task 1.3')
+        return ctx(cls,inputs)
 
 
 def is_leaf(val):
